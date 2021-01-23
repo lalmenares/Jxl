@@ -22,7 +22,7 @@ public class Datos {
          //Imprimimos por consola para ver lo que hemos obtenido
          System.out.println(datoObtenido);
          //Escribimos en el excel un dato 
-         dato.printDato("prueba", 1, 1);
+         dato.printDato("Curso", 1, 1);
          
     }
 }

@@ -14,7 +14,7 @@ public class DataManager {
 	public String getDato(String columName, int pos) {
 
 		String[] columna = excel.DevArregloDatos(1, columName);
-		System.out.println(columna[pos].toString());
+		//System.out.println(columna[pos].toString());
 		return columna[pos].toString();
 	}
         //Con este metodo con un dato de tipo string y conociendo la columna y la posicion se escribe en el fichero
